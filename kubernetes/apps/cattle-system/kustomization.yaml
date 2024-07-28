@@ -6,3 +6,5 @@ kind: Kustomization
 resources:
   # pre flux
   - namespace.yaml
+  # flux
+  - rancher/ks.yaml

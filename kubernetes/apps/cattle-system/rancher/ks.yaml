@@ -12,7 +12,7 @@ spec:
     labels:
       app.kubernetes.io/name: *app
   prune: true
-  path: ./app
+  path: ./kubernetes/apps/cattle-system/rancher/app
   sourceRef:
     kind: GitRepository
     name: home-kubernetes

@@ -9,7 +9,7 @@ spec:
       chart: rancher
       sourceRef:
         kind: HelmRepository
-        name: rancher-stable
+        name: rancher-latest
         namespace: flux-system
   interval: 10m
   timeout: 10m
