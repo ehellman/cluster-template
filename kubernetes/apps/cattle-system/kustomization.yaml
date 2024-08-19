@@ -7,4 +7,4 @@ resources:
   # pre flux
   - namespace.yaml
   # flux
-  - rancher/ks.yaml
+  #- rancher/ks.yaml
